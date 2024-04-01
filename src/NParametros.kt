@@ -23,4 +23,15 @@ fun main() {
     media(8f, 9.toFloat())
     media(5f, 6f, 9f, 10f)
     media("a", 1, 'd', "teste", 123, 45f, false)
+
+    //exemplo de uso de parametros default
+    val texto = "loren ipsun"
+    texto.startsWith("l")
+    texto.endsWith("L")
+    texto.startsWith("L", true)
+    texto.capitalize()
+    texto.decapitalize()
+
+    //exemplo de uso de vararg
+    arrayOf(1,2,3,4,5,6,7,8,9)
 }
